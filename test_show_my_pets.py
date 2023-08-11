@@ -29,4 +29,3 @@ pytest.driver.find_element(By.LINK_TEXT, "Мои питомцы").click()
 # Проверяем что мы оказались на странице "Мои питомцы"
 assert pytest.driver.current_url == 'https://petfriends.skillfactory.ru/my_pets'
 
-# python -m pytest -v --driver Chrome --driver-path /D:/Skillfactory/ChromeDriver/chromedriver_win32/chromedriver.exe tests/test_show_my_pets.py
